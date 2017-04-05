@@ -353,8 +353,8 @@ Once you have created a password grant client, you may request an access token b
     $response = $http->post('http://your-app.com/oauth/token', [
         'form_params' => [
             'grant_type' => 'password',
-            'client_id' => 'client-id',
-            'client_secret' => 'client-secret',
+            'client_id' => 'password-grand-client-id',
+            'client_secret' => 'password-grand-client-secret',
             'username' => 'taylor@laravel.com',
             'password' => 'my-password',
             'scope' => '',
